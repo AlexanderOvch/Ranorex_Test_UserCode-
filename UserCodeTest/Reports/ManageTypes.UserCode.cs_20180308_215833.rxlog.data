@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="96856436f7c770"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 21:58:42"
+		timestampiso="2018-03-08T19:58:42"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.231"
+			timeRelativeToTestModuleStartTime="00:01.232"
+			timeWallClock="21:58:43"
+			time="00:01.231"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type' at center
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.360"
+			timeRelativeToTestModuleStartTime="00:06.361"
+			timeWallClock="21:58:48"
+			time="00:06.360"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.250"
+			timeRelativeToTestModuleStartTime="00:08.251"
+			timeWallClock="21:58:50"
+			time="00:08.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

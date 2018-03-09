@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26f38fee8d4ff24"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 12:11:49"
+		timestampiso="2018-03-09T10:11:49"
+		timeoutfactor="1"
+		module="FirstStepNewPW">
+		<detail>
+			FirstStepNewPW
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.063"
+			timeRelativeToTestModuleStartTime="00:01.064"
+			timeWallClock="12:11:50"
+			time="00:01.063"
+			level="Info"
+			category="Mouse"
+			errimg=".\FirstSte_dc50ce3_29ba380b_trace.jpg"
+			errthumb=".\FirstSte_dc50ce3_29ba380b_trace_thumb.jpg">
+			<message>
+				Left Click CheckBox
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="34"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.338"
+			timeRelativeToTestModuleStartTime="00:20.339"
+			timeWallClock="12:12:09"
+			time="00:20.338"
+			level="Error"
+			category="User"
+			errimg=".\FirstSte_dc50ce3_a5153bdc_trace.jpg"
+			errthumb=".\FirstSte_dc50ce3_a5153bdc_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

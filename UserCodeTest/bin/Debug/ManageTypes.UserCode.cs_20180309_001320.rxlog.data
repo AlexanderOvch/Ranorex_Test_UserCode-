@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="35723f608b62c00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 0:13:28"
+		timestampiso="2018-03-08T22:13:28"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			must not be negative.
+Parameter name: value
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.257"
+			timeRelativeToTestModuleStartTime="00:01.258"
+			timeWallClock="00:13:29"
+			time="00:01.257"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_f43fcc99_64d29536_trace.jpg"
+			errthumb=".\ManageTy_f43fcc99_64d29536_trace_thumb.jpg">
+			<message>
+				must not be negative.<br/>Parameter name: value
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Delay.set_SpeedFactor(Double value)
+   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 33
+   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="33"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

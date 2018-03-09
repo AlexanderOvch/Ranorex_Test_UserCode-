@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 6.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0F66834-9DCB-4A6B-A3AE-F73337241782}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCodeTest", "UserCodeTest\UserCodeTest.csproj", "{591A9568-4572-4CF1-B65D-7227EAC7DF8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591A9568-4572-4CF1-B65D-7227EAC7DF8A}.Debug|x86.Build.0 = Debug|x86
+		{591A9568-4572-4CF1-B65D-7227EAC7DF8A}.Debug|x86.ActiveCfg = Debug|x86
+		{591A9568-4572-4CF1-B65D-7227EAC7DF8A}.Release|x86.Build.0 = Release|x86
+		{591A9568-4572-4CF1-B65D-7227EAC7DF8A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

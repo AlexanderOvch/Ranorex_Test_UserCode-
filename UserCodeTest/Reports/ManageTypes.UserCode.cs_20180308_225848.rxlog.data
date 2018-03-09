@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="523a2b7394eda20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 22:58:58"
+		timestampiso="2018-03-08T20:58:58"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.126"
+			timeRelativeToTestModuleStartTime="00:01.128"
+			timeWallClock="22:58:59"
+			time="00:01.126"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type' at center
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.536"
+			timeRelativeToTestModuleStartTime="00:06.538"
+			timeWallClock="22:59:05"
+			time="00:06.536"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.543"
+			timeRelativeToTestModuleStartTime="00:08.545"
+			timeWallClock="22:59:07"
+			time="00:08.543"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.027"
+			timeRelativeToTestModuleStartTime="00:10.029"
+			timeWallClock="22:59:08"
+			time="00:10.027"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="44"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.573"
+			timeRelativeToTestModuleStartTime="00:13.575"
+			timeWallClock="22:59:12"
+			time="00:13.573"
+			level="Info"
+			category="Validation">
+			<message>
+				Color changed is not correct
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="51"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.804"
+			timeRelativeToTestModuleStartTime="00:13.806"
+			timeWallClock="22:59:12"
+			time="00:13.804"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SelectedColorText' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SelectedColorText"
+				id="44bfcc0bf16b403a930e9ebf9b16be52"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="52"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+	</activity>
+</report>

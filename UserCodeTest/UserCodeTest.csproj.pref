@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="UserCodeTestRepository.rxrep" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Modules\ManageTypes.UserCode.cs" />
+    <Element value="UserCodeTest.rxtst" />
+    <Element value="UserCodeTestRepository.rxrep" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

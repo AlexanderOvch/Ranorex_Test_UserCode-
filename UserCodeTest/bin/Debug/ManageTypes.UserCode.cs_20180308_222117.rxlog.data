@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1331978f04f92ad1"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 22:21:26"
+		timestampiso="2018-03-08T20:21:26"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			'lcontrolkeyup' is not a valid member of the System.Windows.Forms.Keys enumeration.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.217"
+			timeRelativeToTestModuleStartTime="00:01.218"
+			timeWallClock="22:21:27"
+			time="00:01.217"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type' at center
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.194"
+			timeRelativeToTestModuleStartTime="00:06.195"
+			timeWallClock="22:21:32"
+			time="00:06.194"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.063"
+			timeRelativeToTestModuleStartTime="00:08.064"
+			timeWallClock="22:21:34"
+			time="00:08.063"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_65465128_86f4b849_trace.jpg"
+			errthumb=".\ManageTy_65465128_86f4b849_trace_thumb.jpg">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.551"
+			timeRelativeToTestModuleStartTime="00:09.552"
+			timeWallClock="22:21:36"
+			time="00:09.551"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_65465128_84b3639c_trace.jpg"
+			errthumb=".\ManageTy_65465128_84b3639c_trace_thumb.jpg">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="44"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.001"
+			timeRelativeToTestModuleStartTime="00:11.002"
+			timeWallClock="22:21:37"
+			time="00:11.001"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_65465128_b132cbe8_trace.jpg"
+			errthumb=".\ManageTy_65465128_b132cbe8_trace_thumb.jpg">
+			<message>
+				'lcontrolkeyup' is not a valid member of the System.Windows.Forms.Keys enumeration.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Keyboard.HandleEscapeGroup(String characters, Int32&amp; index)&#13;&#10;   at Ranorex.Keyboard.Parse(String sequence)&#13;&#10;   at Ranorex.Keyboard.Press(String sequence)&#13;&#10;   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 47&#13;&#10;   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="47"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

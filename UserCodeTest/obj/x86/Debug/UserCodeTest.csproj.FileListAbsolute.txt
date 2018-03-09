@@ -1,0 +1,8 @@
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\bin\Debug\UserCodeTest.rxtmg
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\bin\Debug\UserCodeTest.rxtst
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\bin\Debug\UserCodeTest.exe.config
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\bin\Debug\UserCodeTest.exe
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\bin\Debug\UserCodeTest.pdb
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\obj\x86\Debug\UserCodeTest.csprojResolveAssemblyReference.cache
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\obj\x86\Debug\UserCodeTest.exe
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\obj\x86\Debug\UserCodeTest.pdb

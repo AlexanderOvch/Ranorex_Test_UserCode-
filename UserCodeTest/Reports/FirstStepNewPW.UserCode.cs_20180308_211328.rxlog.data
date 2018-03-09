@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2fbee9ab5d5cc44"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 21:13:37"
+		timestampiso="2018-03-08T19:13:37"
+		timeoutfactor="1"
+		module="FirstStepNewPW">
+		<detail>
+			FirstStepNewPW
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.154"
+			timeRelativeToTestModuleStartTime="00:01.155"
+			timeWallClock="21:13:38"
+			time="00:01.154"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click CheckBox at center.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="34"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.810"
+			timeRelativeToTestModuleStartTime="00:05.811"
+			timeWallClock="21:13:42"
+			time="00:05.810"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click Button 'Next' at cenet
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="39"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.395"
+			timeRelativeToTestModuleStartTime="00:06.396"
+			timeWallClock="21:13:43"
+			time="00:06.395"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click Button 'Next' at cenet
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.981"
+			timeRelativeToTestModuleStartTime="00:06.982"
+			timeWallClock="21:13:44"
+			time="00:06.981"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click Button 'Next' at cenet
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="45"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.663"
+			timeRelativeToTestModuleStartTime="00:07.664"
+			timeWallClock="21:13:44"
+			time="00:07.663"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click Button 'Manage Types' at cenet
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+				codeline="50"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

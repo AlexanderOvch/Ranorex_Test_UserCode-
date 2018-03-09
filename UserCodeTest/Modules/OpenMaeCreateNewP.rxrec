@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="87afa414-4a93-435c-ad9d-6eb5a570c2cb"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		OpenMaeCreateNewP
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenMaeCreateNewP"
+	namespace="UserCodeTest.Modules"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="UserCodeTestRepository"
+	id="c3992530-a649-42a9-8746-fff4760825aa"
+	rxversion="6.1"
+	relativepath="..\UserCodeTestRepository.rxrep">
+		<codegen
+		classname="UserCodeTestRepository"
+		namespace="UserCodeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="72af19fe-e8cc-4951-b570-5576efa03ac8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenMaeCreateNewP.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="804efcde2137b1c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 0:10:28"
+		timestampiso="2018-03-08T22:10:28"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.260"
+			timeRelativeToTestModuleStartTime="00:01.262"
+			timeWallClock="00:10:29"
+			time="00:01.260"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.759"
+			timeRelativeToTestModuleStartTime="00:04.761"
+			timeWallClock="00:10:33"
+			time="00:04.759"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.913"
+			timeRelativeToTestModuleStartTime="00:05.915"
+			timeWallClock="00:10:34"
+			time="00:05.913"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Test00' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='Test00']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Test00"
+				id="40fe0ee09ed54266b84fe341fc151ed5"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="49"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.939"
+			timeRelativeToTestModuleStartTime="00:05.942"
+			timeWallClock="00:10:34"
+			time="00:05.939"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="53"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.112"
+			timeRelativeToTestModuleStartTime="00:07.114"
+			timeWallClock="00:10:35"
+			time="00:07.112"
+			level="Success"
+			category="Validation"
+			errimg=".\ManageTy_3c5db323_8675aa21_trace.jpg"
+			errthumb=".\ManageTy_3c5db323_8675aa21_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Calibrator' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/contextmenu[@automationid='PART_Popup']/?/?/container[@automationid='grid']/?/?/listitem[@text='Calibrator']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Calibrator"
+				id="49d7274931db48e4900f7f59a1feee39"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="59"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.128"
+			timeRelativeToTestModuleStartTime="00:07.130"
+			timeWallClock="00:10:35"
+			time="00:07.128"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_3c5db323_8675aa21_trace.jpg"
+			errthumb=".\ManageTy_3c5db323_8675aa21_trace_thumb.jpg">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="63"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.975"
+			timeRelativeToTestModuleStartTime="00:07.977"
+			timeWallClock="00:10:36"
+			time="00:07.975"
+			level="Info"
+			category="Keyboard"
+			errimg=".\ManageTy_3c5db323_dce7bec3_trace.jpg"
+			errthumb=".\ManageTy_3c5db323_dce7bec3_trace_thumb.jpg">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.786"
+			timeRelativeToTestModuleStartTime="00:08.788"
+			timeWallClock="00:10:37"
+			time="00:08.786"
+			level="Error"
+			category="User"
+			errimg=".\ManageTy_3c5db323_ba5c40e3_trace.jpg"
+			errthumb=".\ManageTy_3c5db323_ba5c40e3_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

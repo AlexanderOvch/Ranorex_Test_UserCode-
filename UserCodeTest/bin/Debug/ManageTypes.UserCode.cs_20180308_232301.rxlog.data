@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9455a5f72e8d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 23:23:10"
+		timestampiso="2018-03-08T21:23:10"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SomeElement' does not match the specified value (actual='(null)', expected='Test00').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.136"
+			timeRelativeToTestModuleStartTime="00:01.138"
+			timeWallClock="23:23:11"
+			time="00:01.136"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.365"
+			timeRelativeToTestModuleStartTime="00:06.367"
+			timeWallClock="23:23:17"
+			time="00:06.365"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.266"
+			timeRelativeToTestModuleStartTime="00:08.268"
+			timeWallClock="23:23:19"
+			time="00:08.266"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.764"
+			timeRelativeToTestModuleStartTime="00:09.766"
+			timeWallClock="23:23:20"
+			time="00:09.764"
+			level="Info"
+			category="Validation"
+			errimg=".\ManageTy_178e6fef_ffb02623_trace.jpg"
+			errthumb=".\ManageTy_178e6fef_ffb02623_trace_thumb.jpg">
+			<message>
+				Text not enter
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="46"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.001"
+			timeRelativeToTestModuleStartTime="00:10.003"
+			timeWallClock="23:23:20"
+			time="00:10.001"
+			level="Failure"
+			category="Validation"
+			errimg=".\ManageTy_178e6fef_267163ca_trace.jpg"
+			errthumb=".\ManageTy_178e6fef_267163ca_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SomeElement' does not match the specified value (actual='(null)', expected='Test00').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SomeElement"
+				id="210e175b09294fdb8ed94f9c557cc1b9"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="47"
+				loglvl="Failure"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.050"
+			timeRelativeToTestModuleStartTime="00:10.052"
+			timeWallClock="23:23:20"
+			time="00:10.050"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_178e6fef_267163ca_trace.jpg"
+			errthumb=".\ManageTy_178e6fef_267163ca_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SomeElement' does not match the specified value (actual='(null)', expected='Test00').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 47
+   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="47"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SomeElement"
+				id="210e175b09294fdb8ed94f9c557cc1b9"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

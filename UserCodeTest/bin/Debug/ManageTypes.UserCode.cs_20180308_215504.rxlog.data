@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="141513753193ea8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 21:55:13"
+		timestampiso="2018-03-08T19:55:13"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			Failed to find item 'UserCodeTestRepository.SampleTypesEditor.Calibrator'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.131"
+			timeRelativeToTestModuleStartTime="00:01.132"
+			timeWallClock="21:55:14"
+			time="00:01.131"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type' at center
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.869"
+			timeRelativeToTestModuleStartTime="00:04.870"
+			timeWallClock="21:55:18"
+			time="00:04.869"
+			level="Info"
+			category="Keyboard"
+			errimg=".\ManageTy_383fbdcc_cf8b6601_trace.jpg"
+			errthumb=".\ManageTy_383fbdcc_cf8b6601_trace_thumb.jpg">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.750"
+			timeRelativeToTestModuleStartTime="00:06.751"
+			timeWallClock="21:55:19"
+			time="00:06.750"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_383fbdcc_2aa289d2_trace.jpg"
+			errthumb=".\ManageTy_383fbdcc_2aa289d2_trace_thumb.jpg">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.467"
+			timeRelativeToTestModuleStartTime="00:25.468"
+			timeWallClock="21:55:38"
+			time="00:25.467"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_383fbdcc_545f396a_trace.jpg"
+			errthumb=".\ManageTy_383fbdcc_545f396a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'UserCodeTestRepository.SampleTypesEditor.Calibrator'.<br/>No element found for path './/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/text[@caption='Calibrator']' within 15s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at UserCodeTest.UserCodeTestRepositoryFolders.SampleTypesEditorAppFolder.get_Calibrator() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\UserCodeTestRepository.cs:line 492
+   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 42
+   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="42"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/text[@caption='Calibrator']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Calibrator"
+				id="a45c1b9bd60248a48af45f2ab38065a6"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

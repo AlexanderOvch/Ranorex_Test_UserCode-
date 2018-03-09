@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="149d4ba96b6f2955"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 12:53:41"
+		timestampiso="2018-03-09T10:53:41"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			Failed to move to location 'Center' within element '{Picture:}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.072"
+			timeRelativeToTestModuleStartTime="00:01.073"
+			timeWallClock="12:53:42"
+			time="00:01.072"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.790"
+			timeRelativeToTestModuleStartTime="00:04.791"
+			timeWallClock="12:53:45"
+			time="00:04.790"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.838"
+			timeRelativeToTestModuleStartTime="00:06.839"
+			timeWallClock="12:53:48"
+			time="00:06.838"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Test00' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='Test00']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Test00"
+				id="40fe0ee09ed54266b84fe341fc151ed5"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="49"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.860"
+			timeRelativeToTestModuleStartTime="00:06.861"
+			timeWallClock="12:53:48"
+			time="00:06.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="53"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.631"
+			timeRelativeToTestModuleStartTime="00:08.632"
+			timeWallClock="12:53:49"
+			time="00:08.631"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Calibrator' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/contextmenu[@automationid='PART_Popup']/?/?/container[@automationid='grid']/?/?/listitem[@text='Calibrator']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Calibrator"
+				id="49d7274931db48e4900f7f59a1feee39"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="59"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.644"
+			timeRelativeToTestModuleStartTime="00:08.645"
+			timeWallClock="12:53:49"
+			time="00:08.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="63"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.036"
+			timeRelativeToTestModuleStartTime="00:10.037"
+			timeWallClock="12:53:51"
+			time="00:10.036"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.653"
+			timeRelativeToTestModuleStartTime="00:12.654"
+			timeWallClock="12:53:53"
+			time="00:12.653"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SelectedColorText' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SelectedColorText"
+				id="44bfcc0bf16b403a930e9ebf9b16be52"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="74"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.663"
+			timeRelativeToTestModuleStartTime="00:12.664"
+			timeWallClock="12:53:53"
+			time="00:12.663"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Ok'
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="78"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.236"
+			timeRelativeToTestModuleStartTime="00:14.237"
+			timeWallClock="12:53:55"
+			time="00:14.236"
+			level="Success"
+			category="Validation"
+			errimg=".\ManageTy_dba97ebe_8a62a03e_trace.jpg"
+			errthumb=".\ManageTy_dba97ebe_8a62a03e_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.NewProtocolWizard.SomeContainer.Test00' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]/container[2]/text[@caption='Test00']"
+				fullname="UserCodeTestRepository.NewProtocolWizard.SomeContainer.Test00"
+				id="73b861c2f8664c15a5391351861ed7c4"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="83"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.251"
+			timeRelativeToTestModuleStartTime="00:14.252"
+			timeWallClock="12:53:55"
+			time="00:14.251"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_dba97ebe_8a62a03e_trace.jpg"
+			errthumb=".\ManageTy_dba97ebe_8a62a03e_trace_thumb.jpg">
+			<message>
+				Left Click Button 'Manage Types'
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="87"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.863"
+			timeRelativeToTestModuleStartTime="00:14.864"
+			timeWallClock="12:53:56"
+			time="00:14.863"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_dba97ebe_0dacb38e_trace.jpg"
+			errthumb=".\ManageTy_dba97ebe_0dacb38e_trace_thumb.jpg">
+			<message>
+				Click button 'Delete'
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="92"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.434"
+			timeRelativeToTestModuleStartTime="00:15.435"
+			timeWallClock="12:53:56"
+			time="00:15.434"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_dba97ebe_75d2d861_trace.jpg"
+			errthumb=".\ManageTy_dba97ebe_75d2d861_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{Picture:}'.<br/>The pointer cannot be moved to point '{X=-1073741825,Y=-1073741825}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click()
+   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 94
+   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="94"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button/picture"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SomePicture"
+				id="52499f7aecc64142851456451bf00f55"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

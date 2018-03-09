@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bd640e4aeef9cfc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 12:28:34"
+		timestampiso="2018-03-09T10:28:34"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'UserCodeTestRepository.NewProtocolWizard.SomeContainer.SomeCheckBox' does not match the specified value (actual='(null)', expected='Test00').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.159"
+			timeRelativeToTestModuleStartTime="00:01.160"
+			timeWallClock="12:28:36"
+			time="00:01.159"
+			level="Info"
+			category="Mouse">
+			<message>
+				Click button 'Add Sample Type'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.238"
+			timeRelativeToTestModuleStartTime="00:06.240"
+			timeWallClock="12:28:41"
+			time="00:06.238"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Enter Text
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.255"
+			timeRelativeToTestModuleStartTime="00:08.256"
+			timeWallClock="12:28:43"
+			time="00:08.255"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Test00' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='Test00']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Test00"
+				id="40fe0ee09ed54266b84fe341fc151ed5"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="49"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.278"
+			timeRelativeToTestModuleStartTime="00:08.279"
+			timeWallClock="12:28:43"
+			time="00:08.278"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Inherent Type
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="53"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.047"
+			timeRelativeToTestModuleStartTime="00:10.048"
+			timeWallClock="12:28:44"
+			time="00:10.047"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.Calibrator' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/contextmenu[@automationid='PART_Popup']/?/?/container[@automationid='grid']/?/?/listitem[@text='Calibrator']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.Calibrator"
+				id="49d7274931db48e4900f7f59a1feee39"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="59"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.062"
+			timeRelativeToTestModuleStartTime="00:10.063"
+			timeWallClock="12:28:44"
+			time="00:10.062"
+			level="Info"
+			category="Mouse">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="63"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.504"
+			timeRelativeToTestModuleStartTime="00:11.505"
+			timeWallClock="12:28:46"
+			time="00:11.504"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Choose Color
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.062"
+			timeRelativeToTestModuleStartTime="00:14.063"
+			timeWallClock="12:28:48"
+			time="00:14.062"
+			level="Success"
+			category="Validation"
+			errimg=".\ManageTy_d37c3a55_77a25c0b_trace.jpg"
+			errthumb=".\ManageTy_d37c3a55_77a25c0b_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.SampleTypesEditor.SelectedColorText' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']"
+				fullname="UserCodeTestRepository.SampleTypesEditor.SelectedColorText"
+				id="44bfcc0bf16b403a930e9ebf9b16be52"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="74"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.075"
+			timeRelativeToTestModuleStartTime="00:14.076"
+			timeWallClock="12:28:48"
+			time="00:14.075"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_d37c3a55_77a25c0b_trace.jpg"
+			errthumb=".\ManageTy_d37c3a55_77a25c0b_trace_thumb.jpg">
+			<message>
+				Click button 'Ok'
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="78"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.586"
+			timeRelativeToTestModuleStartTime="00:15.587"
+			timeWallClock="12:28:50"
+			time="00:15.586"
+			level="Failure"
+			category="Validation"
+			errimg=".\ManageTy_d37c3a55_80d5c7e4_trace.jpg"
+			errthumb=".\ManageTy_d37c3a55_80d5c7e4_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UserCodeTestRepository.NewProtocolWizard.SomeContainer.SomeCheckBox' does not match the specified value (actual='(null)', expected='Test00').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="UserCodeTestRepository.NewProtocolWizard.SomeContainer.SomeCheckBox"
+				id="cdeae4252d13425b9efc1b23587b4204"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="83"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.617"
+			timeRelativeToTestModuleStartTime="00:15.618"
+			timeWallClock="12:28:50"
+			time="00:15.617"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_d37c3a55_80d5c7e4_trace.jpg"
+			errthumb=".\ManageTy_d37c3a55_80d5c7e4_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'UserCodeTestRepository.NewProtocolWizard.SomeContainer.SomeCheckBox' does not match the specified value (actual='(null)', expected='Test00').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at UserCodeTest.Modules.ManageTypes.Init() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs:line 83
+   at UserCodeTest.Modules.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\ManageTypes.UserCode.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="UserCodeTestRepository.NewProtocolWizard.SomeContainer.SomeCheckBox"
+				id="cdeae4252d13425b9efc1b23587b4204"
+				timeout="45000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

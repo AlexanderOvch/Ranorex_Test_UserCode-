@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6e1628a7b0a000"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 13:14:05"
+		timestampiso="2018-03-09T11:14:05"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="10.61s"
+			durationms="10607"
+			type="test suite"
+			rid="fb7358b2bb325b0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="UserCodeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="10.51s"
+				durationms="10511"
+				type="test case"
+				rid="1fa412d119f2a4a"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="f5332193-6ca3-4a6e-8ae1-f8040738dab8"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="6.96s"
+					durationms="6957"
+					type="test module"
+					rid="caecb46693b7c85"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenMaeCreateNewP"
+					moduleid="87afa414-4a93-435c-ad9d-6eb5a570c2cb"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.873"
+						timeRelativeToTestModuleStartTime="00:00.030"
+						timeWallClock="13:14:06"
+						time="00:00.873"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe'
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\OpenMaeCreateNewP.UserCode.cs"
+							codeline="32"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.577"
+						timeRelativeToTestModuleStartTime="00:00.733"
+						timeWallClock="13:14:06"
+						time="00:01.577"
+						level="Info"
+						category="mouse">
+						<message>
+							Left Click button 'Protocols'
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\OpenMaeCreateNewP.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.762"
+						timeRelativeToTestModuleStartTime="00:05.918"
+						timeWallClock="13:14:12"
+						time="00:06.762"
+						level="Info"
+						category="Mouse">
+						<message>
+							Left Click button 'New'
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\OpenMaeCreateNewP.UserCode.cs"
+							codeline="42"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="3.45s"
+					durationms="3453"
+					type="test module"
+					rid="216b9292d7b4dfc"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="FirstStepNewPW"
+					moduleid="a31a4ff5-cd95-4293-8ff7-5d8c83f3bf67"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.852"
+						timeRelativeToTestModuleStartTime="00:00.017"
+						timeWallClock="13:14:13"
+						time="00:07.852"
+						level="Info"
+						category="Mouse"
+						errimg="images_UserCode_ec7194d2\UserCode_ec7194d2_ef85321b_trace.jpg"
+						errthumb="images_UserCode_ec7194d2\UserCode_ec7194d2_ef85321b_trace_thumb.jpg">
+						<message>
+							Left Click CheckBox
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\UserCodeTest\UserCodeTest\Modules\FirstStepNewPW.UserCode.cs"
+							codeline="34"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.987"
+						timeRelativeToTestModuleStartTime="00:03.153"
+						timeWallClock="13:14:16"
+						time="00:10.987"
+						level="Error"
+						category="User"
+						errimg="images_UserCode_ec7194d2\UserCode_ec7194d2_307c5df0_trace.jpg"
+						errthumb="images_UserCode_ec7194d2\UserCode_ec7194d2_307c5df0_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
