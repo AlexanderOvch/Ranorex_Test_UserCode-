@@ -113,8 +113,8 @@ namespace UserCodeTest.Modules
         	
         									/// Close New Protocol Wizard
         									
-        	Report.Log(ReportLevel.Info, "Mouse", "Click button 'X' (Close 'New Protocol Wizard)", new RecordItemIndex(15));
-        	repo.NewProtocolWizard.Close.Click();
+        	Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'NewProtocolWizard'.", repo.NewProtocolWizard.SelfInfo);
+            Host.Local.CloseApplication(repo.NewProtocolWizard.Self, new Duration(0));
         	
         									/// Exit The Program
         			
