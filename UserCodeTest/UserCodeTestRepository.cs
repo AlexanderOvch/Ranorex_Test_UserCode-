@@ -198,6 +198,7 @@ namespace UserCodeTest
             RepoItemInfo _nextInfo;
             RepoItemInfo _advancedviewbuttonInfo;
             RepoItemInfo _optionmarkInfo;
+            RepoItemInfo _optionmark1Info;
             RepoItemInfo _test00Info;
 
             /// <summary>
@@ -209,6 +210,7 @@ namespace UserCodeTest
                 _nextInfo = new RepoItemInfo(this, "Next", "container[1]/container/button[@text='Next']", 15000, null, "b900e1dd-b4ac-4a77-b0ed-f8b053fa70f5");
                 _advancedviewbuttonInfo = new RepoItemInfo(this, "AdvancedViewButton", "element/container/container/container/container/button[@automationid='AdvancedViewButton']", 15000, null, "d1fb6311-b77c-460d-9360-0012882061ca");
                 _optionmarkInfo = new RepoItemInfo(this, "OptionMark", "element/container/container/container[1]/radiobutton[@text='I will enter/paste in my data']/element[@automationid='optionMark']", 15000, null, "e08ea199-0f0b-4af4-8965-1fbe14edfa4c");
+                _optionmark1Info = new RepoItemInfo(this, "OptionMark1", "element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']", 15000, null, "8e7500da-f6ad-4bcd-a301-5e95634cd10c");
                 _test00Info = new RepoItemInfo(this, "Test00", "element/container/container/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]/container[2]/text[@caption='Test00']", 15000, null, "73b861c2-f866-4c15-a539-1351861ed7c4");
             }
 
@@ -305,6 +307,30 @@ namespace UserCodeTest
                 get
                 {
                     return _optionmarkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OptionMark1 item.
+            /// </summary>
+            [RepositoryItem("8e7500da-f6ad-4bcd-a301-5e95634cd10c")]
+            public virtual Ranorex.Unknown OptionMark1
+            {
+                get
+                {
+                    return _optionmark1Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OptionMark1 item info.
+            /// </summary>
+            [RepositoryItemInfo("8e7500da-f6ad-4bcd-a301-5e95634cd10c")]
+            public virtual RepoItemInfo OptionMark1Info
+            {
+                get
+                {
+                    return _optionmark1Info;
                 }
             }
 

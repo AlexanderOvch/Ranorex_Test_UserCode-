@@ -61,6 +61,16 @@ rxversion="6.1">
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/radiobutton[@text='I will enter/paste in my data']/element[@automationid='optionMark']
 				</item>
 				<item
+				name="OptionMark1"
+				id="8e7500da-f6ad-4bcd-a301-5e95634cd10c"
+				searchtimeout="15000ms"
+				capname="unknown"
+				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']"
+				addcaps="unknown,wpfelement"
+				refimgid="c1c96e08-3516-4722-a255-ea7898261fe8">
+					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']
+				</item>
+				<item
 				name="Test00"
 				id="73b861c2-f866-4c15-a539-1351861ed7c4"
 				searchtimeout="15000ms"

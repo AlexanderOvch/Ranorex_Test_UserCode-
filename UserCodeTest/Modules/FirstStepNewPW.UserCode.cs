@@ -42,6 +42,11 @@ namespace UserCodeTest.Modules
             Report.Log(ReportLevel.Info, "Mouse", "Left Click Button 'Next'", new RecordItemIndex(2));
             repo.NewProtocolWizard.SomeContainer.Next.Click();
             
+            					/// click checkbox Rack
+            
+            Report.Log(ReportLevel.Info,"Mouse", "Left Click CheckBox", new RecordItemIndex(0));
+            repo.NewProtocolWizard.SomeContainer.OptionMark1.Click();
+            
             Report.Log(ReportLevel.Info, "Mouse", "Left Click Button 'Next'", new RecordItemIndex(3));
             repo.NewProtocolWizard.SomeContainer.Next.Click();
             
