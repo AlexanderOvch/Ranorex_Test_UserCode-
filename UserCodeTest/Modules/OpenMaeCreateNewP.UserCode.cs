@@ -31,7 +31,7 @@ namespace UserCodeTest.Modules
         {
         	Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files (x86)\\MyAssays\\MyAssays Desktop\\MyAssays.Desktop.Explorer.exe'", new RecordItemIndex(0));
         	Host.Local.RunApplication("C:\\Program Files (x86)\\MyAssays\\MyAssays Desktop\\MyAssays.Desktop.Explorer.exe");
-        	
+        	Delay.Seconds(10);
         				///  click button "Protocol"
         	
         	Report.Log(ReportLevel.Info, "mouse", "Left Click button 'Protocols'", new RecordItemIndex(1));
