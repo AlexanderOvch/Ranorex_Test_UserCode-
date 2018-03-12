@@ -26,7 +26,18 @@ mode="Global">
 	classname="ManageTypes"
 	namespace="UserCodeTest.Modules"/>
 	<variables/>
-	<recorditems/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Close_Application_NewProtocolWizard"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b9ff185f-c0e1-4290-8066-c67c7e673ca4"/>
+		</userrecorditem>
+	</recorditems>
 	<repository
 	name="UserCodeTestRepository"
 	id="c3992530-a649-42a9-8746-fff4760825aa"

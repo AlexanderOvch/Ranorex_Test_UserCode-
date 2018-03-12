@@ -118,8 +118,12 @@ namespace UserCodeTest.Modules
         	
         									/// Exit The Program
         			
-        	Report.Log(ReportLevel.Info, "Mouse", "Click button 'X' (Exit The Program)", new RecordItemIndex(16));
-        	repo.MyAssaysExplorer.Quit.Click();
+      		Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'NewProtocolWizard'.", repo.NewProtocolWizard.SelfInfo);
+            Host.Local.CloseApplication(repo.NewProtocolWizard.Self, new Duration(0));
+        }
+
+        public void Close_Application_NewProtocolWizard()
+        {
         }
 
     }

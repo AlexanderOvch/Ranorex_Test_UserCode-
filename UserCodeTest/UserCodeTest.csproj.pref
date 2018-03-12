@@ -6,6 +6,7 @@
   <Array name="files">
     <Element value="Modules\ManageTypes.UserCode.cs" />
     <Element value="UserCodeTest.rxtst" />
+    <Element value="Modules\FirstStepNewPW.UserCode.cs" />
     <Element value="UserCodeTestRepository.rxrep" />
   </Array>
   <Properties name="projectSavedData">

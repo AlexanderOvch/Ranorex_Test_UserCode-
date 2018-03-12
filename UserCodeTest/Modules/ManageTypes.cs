@@ -79,6 +79,9 @@ namespace UserCodeTest.Modules
 
             Init();
 
+            Close_Application_NewProtocolWizard();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
